@@ -10,4 +10,20 @@ class Song
     self.class.all << self
   end
 
+  def self.create
+    @@all << self.new
+    song = @song.new
+
+  end
+
+  def self.create_by_name
+
+  end
+
+  def self.find_by_name
+  
+  end
+
 end
+
+
